@@ -1,0 +1,13 @@
+{
+  "name": "spider-man",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "tangweikun <819573105@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.5.1"
+  }
+}
