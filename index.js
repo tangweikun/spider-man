@@ -1,15 +1,7 @@
 const Koa = require('koa')
-const Router = require('koa-router')
 const app = new Koa()
-const router = new Router()
 
-router
-  .get('/foo', (ctx, next) => {
-    ctx.body = 'foo'
-  })
-  .get('/bar', (ctx, next) => {
-    ctx.body = 'bar'
-  })
+const router = require('./router')
 
 app.use(router.routes())
 
